@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="practiseUdemy.Test1">
+      <class name="com.api.tests.postRequestapi">
         <methods>
-          <include name="verifyAddBook"/>
+          <include name="sendapirequest"/>
         </methods>
-      </class> <!-- practiseUdemy.Test1 -->
+      </class> <!-- com.api.tests.postRequestapi -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

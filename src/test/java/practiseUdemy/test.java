@@ -3,6 +3,8 @@ package practiseUdemy;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
+import java.sql.Driver;
+
 import org.testng.Assert;
 
 import io.restassured.path.json.JsonPath;
@@ -12,6 +14,8 @@ public class test {
 	public static void main(String[] args) {
 		
 		baseURI = "https://rahulshettyacademy.com";
+		
+	
 		
 	String response =	given().log().all().queryParam("key", "qaclick123").header("Content-Type", "application/json")
 		.body("{\r\n"
